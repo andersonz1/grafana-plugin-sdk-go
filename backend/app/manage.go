@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/grafana/grafana-plugin-sdk-go/backend"
-	"github.com/grafana/grafana-plugin-sdk-go/internal/automanagement"
-	"github.com/grafana/grafana-plugin-sdk-go/internal/standalone"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend"
+	"github.com/andersonz1/grafana-plugin-sdk-go/internal/automanagement"
+	"github.com/andersonz1/grafana-plugin-sdk-go/internal/standalone"
 )
 
 // ManageOpts can modify Manage behaviour.

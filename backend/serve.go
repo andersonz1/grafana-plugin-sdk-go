@@ -3,9 +3,9 @@ package backend
 import (
 	"net"
 
-	"github.com/grafana/grafana-plugin-sdk-go/backend/grpcplugin"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/log"
-	"github.com/grafana/grafana-plugin-sdk-go/genproto/pluginv2"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/grpcplugin"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/log"
+	"github.com/andersonz1/grafana-plugin-sdk-go/genproto/pluginv2"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/hashicorp/go-plugin"

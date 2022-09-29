@@ -6,7 +6,7 @@ import (
 
 	"testing"
 
-	ca "github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/certificate_authority"
+	ca "github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/certificate_authority"
 	"github.com/stretchr/testify/require"
 )
 

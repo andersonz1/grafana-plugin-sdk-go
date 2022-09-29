@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/genproto/pluginv2"
+	"github.com/andersonz1/grafana-plugin-sdk-go/genproto/pluginv2"
 	"github.com/mitchellh/reflectwalk"
 	"github.com/stretchr/testify/require"
 )

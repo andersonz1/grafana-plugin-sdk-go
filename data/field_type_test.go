@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/grafana/grafana-plugin-sdk-go/data"
+	"github.com/andersonz1/grafana-plugin-sdk-go/data"
 	"github.com/stretchr/testify/require"
 )
 

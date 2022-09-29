@@ -1,7 +1,7 @@
 package grpcplugin
 
 import (
-	"github.com/grafana/grafana-plugin-sdk-go/backend/log"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/log"
 	plugin "github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 )

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/grafana/grafana-plugin-sdk-go/genproto/pluginv2"
+	"github.com/andersonz1/grafana-plugin-sdk-go/genproto/pluginv2"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 )

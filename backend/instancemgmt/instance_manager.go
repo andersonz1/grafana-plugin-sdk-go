@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/grafana/grafana-plugin-sdk-go/backend"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend"
 )
 
 // Instance is a marker interface for an instance.

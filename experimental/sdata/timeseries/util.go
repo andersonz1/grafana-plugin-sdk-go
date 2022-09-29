@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/data"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/sdata"
+	"github.com/andersonz1/grafana-plugin-sdk-go/data"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/sdata"
 )
 
 func emptyFrameWithTypeMD(t data.FrameType) *data.Frame {

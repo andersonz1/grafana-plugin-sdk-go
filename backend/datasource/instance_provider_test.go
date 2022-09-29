@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/backend"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/instancemgmt"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/instancemgmt"
 	"github.com/stretchr/testify/require"
 )
 

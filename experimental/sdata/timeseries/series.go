@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/grafana/grafana-plugin-sdk-go/data"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/sdata"
+	"github.com/andersonz1/grafana-plugin-sdk-go/data"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/sdata"
 )
 
 type CollectionReader interface {

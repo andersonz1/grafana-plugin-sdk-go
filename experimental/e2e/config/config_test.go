@@ -3,7 +3,7 @@ package config_test
 import (
 	"testing"
 
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/config"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/config"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/data"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/sdata"
+	"github.com/andersonz1/grafana-plugin-sdk-go/data"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/sdata"
 )
 
 // MultiFrame is a time series format where each series lives in its own single frame.

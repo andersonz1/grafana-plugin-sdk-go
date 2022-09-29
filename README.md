@@ -2,10 +2,10 @@
 
 This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.
 
-[![License](https://img.shields.io/github/license/grafana/grafana-plugin-sdk-go)](LICENSE)
-[![Go.dev](https://pkg.go.dev/badge/github.com/grafana/grafana-plugin-sdk-go)](https://pkg.go.dev/github.com/grafana/grafana-plugin-sdk-go?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana-plugin-sdk-go)](https://goreportcard.com/report/github.com/grafana/grafana-plugin-sdk-go)
-[![Circle CI](https://img.shields.io/circleci/build/gh/grafana/grafana-plugin-sdk-go/master)](https://circleci.com/gh/grafana/grafana-plugin-sdk-go?branch=master)
+[![License](https://img.shields.io/github/license/andersonz1/grafana-plugin-sdk-go)](LICENSE)
+[![Go.dev](https://pkg.go.dev/badge/github.com/andersonz1/grafana-plugin-sdk-go)](https://pkg.go.dev/github.com/andersonz1/grafana-plugin-sdk-go?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/andersonz1/grafana-plugin-sdk-go)](https://goreportcard.com/report/github.com/andersonz1/grafana-plugin-sdk-go)
+[![Circle CI](https://img.shields.io/circleci/build/gh/andersonz1/grafana-plugin-sdk-go/master)](https://circleci.com/gh/andersonz1/grafana-plugin-sdk-go?branch=master)
 
 ## Current state
 
@@ -20,4 +20,4 @@ If you're interested in contributing to this project:
 
 ## License
 
-[Apache 2.0 License](https://github.com/grafana/grafana-plugin-sdk-go/blob/master/LICENSE)
+[Apache 2.0 License](https://github.com/andersonz1/grafana-plugin-sdk-go/blob/master/LICENSE)

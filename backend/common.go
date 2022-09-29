@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/backend/httpclient"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/httpclient"
 )
 
 const dataCustomOptionsKey = "grafanaData"

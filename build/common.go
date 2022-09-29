@@ -10,12 +10,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e"
-	ca "github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/certificate_authority"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/config"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/fixture"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/storage"
-	"github.com/grafana/grafana-plugin-sdk-go/internal"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e"
+	ca "github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/certificate_authority"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/config"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/fixture"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/storage"
+	"github.com/andersonz1/grafana-plugin-sdk-go/internal"
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 )
@@ -145,6 +145,11 @@ func (Build) LinuxARM() error {
 	return buildBackend(newBuildConfig("linux", "arm"))
 }
 
+// Linuxs390x builds the back-end plugin for Linux on s390x.
+func (Build) Linuxs390x() error {
+	return buildBackend(newBuildConfig("linux", "s390x"))
+}
+
 // LinuxARM64 builds the back-end plugin for Linux on ARM64.
 func (Build) LinuxARM64() error {
 	return buildBackend(newBuildConfig("linux", "arm64"))
@@ -189,7 +194,7 @@ func (Build) Backend() error {
 // BuildAll builds production executables for all supported platforms.
 func BuildAll() { //revive:disable-line
 	b := Build{}
-	mg.Deps(b.Linux, b.Windows, b.Darwin, b.DarwinARM64, b.LinuxARM64, b.LinuxARM)
+	mg.Deps(b.Linux, b.Windows, b.Darwin, b.DarwinARM64, b.LinuxARM64, b.LinuxARM, b.Linuxs390x)
 }
 
 // Test runs backend tests.

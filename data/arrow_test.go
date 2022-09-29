@@ -13,7 +13,7 @@ import (
 
 	"github.com/apache/arrow/go/arrow/ipc"
 	"github.com/google/go-cmp/cmp"
-	"github.com/grafana/grafana-plugin-sdk-go/data"
+	"github.com/andersonz1/grafana-plugin-sdk-go/data"
 	"github.com/stretchr/testify/require"
 )
 

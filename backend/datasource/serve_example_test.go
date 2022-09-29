@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/grafana/grafana-plugin-sdk-go/backend"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/datasource"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/httpclient"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/instancemgmt"
-	"github.com/grafana/grafana-plugin-sdk-go/backend/resource/httpadapter"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/datasource"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/httpclient"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/instancemgmt"
+	"github.com/andersonz1/grafana-plugin-sdk-go/backend/resource/httpadapter"
 )
 
 type testDataSourceInstanceSettings struct {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/fixture"
-	"github.com/grafana/grafana-plugin-sdk-go/experimental/e2e/storage"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/fixture"
+	"github.com/andersonz1/grafana-plugin-sdk-go/experimental/e2e/storage"
 	"github.com/stretchr/testify/require"
 )
 

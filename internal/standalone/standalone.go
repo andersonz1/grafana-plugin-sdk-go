@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana-plugin-sdk-go/internal"
+	"github.com/andersonz1/grafana-plugin-sdk-go/internal"
 )
 
 type Args struct {
